@@ -5,7 +5,6 @@ import VideoList from "./components/video_list/video_list";
 
 function App() {
   const [videos, setVideos] = useState([]);
-  const [name, setName] = useState('');
   
   useEffect(() => {
     const requestOptions = {
