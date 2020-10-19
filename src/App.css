@@ -1,5 +1,42 @@
 .App {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  width: 1024px;
+  display: flex;
+  background-color: black;
+}
+.headlineText {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+.TodoInsert {
+  display: flex;
+  padding: 0.5rem;
+}
+.input {
+  width: 30rem;
+  background: white;
+  outline: none;
+  display: flex;
+}
+
+
+.react-icons-youtube {
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
+  color: red;
+  align-items: center;
+  
+  font-size: 3rem;
 }
 
 .App-logo {
