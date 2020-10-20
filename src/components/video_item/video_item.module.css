@@ -25,9 +25,10 @@
 }
 .title,
 .channel {
-  margin: 0;
+  margin: 1.5;
   font-size: 0.9rem;
 }
 .channel {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 900;
 }
