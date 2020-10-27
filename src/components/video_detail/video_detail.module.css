@@ -1,0 +1,10 @@
+.detail {
+    padding: 0.2em;
+}
+
+.description {
+    white-space: pre-wrap;
+    font-size: large;
+    font-weight: 500;
+    font-family: monospace;
+}
