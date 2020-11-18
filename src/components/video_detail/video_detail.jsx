@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./video_detail.module.css";
 
-
 const Videodetail = ({ video }) => {
   return (
     <div>
@@ -16,7 +15,6 @@ const Videodetail = ({ video }) => {
           frameBorder="0"
           allowFullScreen
         ></iframe>
-
         <h2>{video.snippet.title}</h2>
         <h2>{video.snippet.channelTitle}</h2>
         <hr />
@@ -25,6 +23,5 @@ const Videodetail = ({ video }) => {
     </div>
   );
 };
-
 
 export default Videodetail;
