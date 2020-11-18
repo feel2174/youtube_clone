@@ -23,7 +23,6 @@ class Youtube {
       },
     });
     return response.data.items.map(item => ({
-
       ...item,
       id: item.id.videoId,
     }));

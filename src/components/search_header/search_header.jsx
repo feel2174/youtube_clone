@@ -1,7 +1,6 @@
 import React, { useRef, memo } from "react";
 import styles from "./search_header.module.css";
 
-
 const SearchHeader = memo(({ onSearch }) => {
   const inputRef = useRef();
   const handleSearch = () => {
@@ -11,7 +10,6 @@ const SearchHeader = memo(({ onSearch }) => {
   const onClick = () => {
     handleSearch();
   };
-
   const onKeyPress = (event) => {
     if (event.key === "Enter") {
       handleSearch();
@@ -41,6 +39,5 @@ const SearchHeader = memo(({ onSearch }) => {
     </header>
   );
 });
-
 
 export default SearchHeader;
